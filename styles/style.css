@@ -1,0 +1,378 @@
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* nav related styles */
+nav{
+    padding:44px 240px;
+}
+#site-logo{
+    width:87px;
+    height:40px;
+}
+#site-logo-header{
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+header nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-button-1{
+    
+    background-color: white;
+    border:0px;
+    border-radius: 8px;
+    padding:17px 24px;
+}
+nav div button a{
+    text-decoration:none;
+    color: #3C354F;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+#nav-button-2{
+    color: #3C354F;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    padding:16px 24px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    border:none;
+}
+.nav-button-icon{
+    align-items: center;
+    position:relative;
+    top:10px;
+}
+/* main related styles */
+/* banner-1 */
+#banner-1{
+    background-image: url(../images/Group\ 18.png);
+    background-repeat: no-repeat;
+    background-position:right top;
+    margin-right:200px;
+    height:700px;
+    padding:0px;
+}
+
+#banner-1 h3{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+#banner-1-text{
+    background-image:url(../images/Group\ 14.png);
+    background-repeat:no-repeat;
+    height:500px;
+    width:500px;
+    padding:148px 240px 148px 240px;
+}
+#banner-1-text h3{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 600;
+    
+}
+#banner-1-text h1{
+        /* text-align: center; */
+        font-size: 95px;
+        font-weight: 800;
+        text-transform: uppercase;
+        background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+ol.banner-list{
+    list-style-type:none;
+}
+.banner-1-buttons button {
+    border:none;
+    border-radius:40px;
+    padding:20px 40px;
+}
+#banner-1-button-1{
+    background-color: #FF42A5;
+}
+#banner-1-button-2{
+    background-color: #4EC5F7;
+}
+.banner-1-buttons button a {
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    font-weight: 600;
+}
+/* banner-2 */
+#banner-2{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    display: flex;
+    
+    
+}
+#banner-2-text h2{
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding:90px 200px 0px 200px;
+    position:relative;
+    left:200px;
+}
+#banner-2-text p{
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width:520px;
+    height:120px;
+    text-align: right;
+    position:relative;
+    left:210px;
+    
+}
+#banner-2 figure {
+    position:relative;
+    left:100px;
+}
+#banner-3-text h3{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+#banner-3-text h6{
+    text-align: center;
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 16px;
+}
+.banner-3-card{
+    width: 342px;
+    height:484px;
+}
+.banner-3-card figure img:hover {
+    color:rgb(0, 0, 0);
+    border: #FF42A5;
+    border-radius: 8px;
+}
+.banner-3-card a {
+    text-decoration: none;
+}
+#banner-3-video{
+    display:flex;
+    justify-content: space-around;
+    margin:50px 240px;
+}
+.banner-3-card figcaption {
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-left:50px;
+}
+/* banner-4 */
+#banner-4 {
+    margin-top:150px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#banner-4-text h2 {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: right;
+    position:relative;
+    bottom:200px;
+}
+#banner-4-text h2 span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#banner-4-text h6 {
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width:353px;
+    height:90px;
+    position:relative;
+    bottom:200px;
+
+}
+#game-poster {
+    position:relative;
+    left:400px;
+    margin-right:240px;
+}
+#angella{
+    position:relative;
+    bottom:350px;
+    right:140px;
+}
+/* banner-5 */
+#banner-5 {
+    background-color:#FF42A5;
+    display:flex;
+    width:1890px;
+    overflow-x:hidden;
+}
+#banner-5 h3{
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    padding:150px 0px 0px 240px;
+}
+#banner-5 p {
+    width:680px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding:0px 0px 0px 240px;
+}
+#banner-5-list {
+    display:flex;
+    color:white;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 40px;
+    padding:0px 0px 0px 200px;
+}
+#banner-5-list-1 {
+    text-align: left;
+    list-style-type: none;
+}
+#banner-5-list-2 {
+    text-align: right;
+    list-style-type: none;
+}
+#banner-5-picture {
+    position:relative;
+    left:10px;
+}
+#banner-5-button {
+    background-color: white;
+    border-radius: 50px;
+    padding:20px 40px;
+    border:none;
+    position:relative;
+    bottom:100px;
+    left:240px;
+    font-weight: 600;
+    font-size: 20px;
+}
+#banner-5-button a {
+    text-decoration: none;
+    color:#FF42A5;
+}
+/* game modes 6 */
+.game-modes-6 {
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+    align-items: center;
+}
+.game-mode {
+    width: 248px;
+    height: 80px;
+    border-radius: 50px;
+    background-color: #FFF;
+    border: none;
+    align-items: center;
+    justify-content: space-around;
+}
+.game-modes-6 button a:hover {
+    border:1px solid #FF42A5;
+    color:#FF42A5
+}
+.game-modes-6 button a {
+    width: 248px;
+    height: 80px;
+    justify-content: center;
+    text-decoration: none;
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 600;
+    justify-content: center;
+    padding:20px 0px;
+    border-radius: 10px;
+    
+}
+/* footer */
+footer {
+    background-color: #0B0223;
+    height:500px;
+}
+#footer-heading {
+    text-align: center;
+    padding-top: 100px;
+    margin-top: 100px;
+}
+#footer-heading h2 {
+    font-weight: 700;
+    font-size: 45px;
+}
+#sections  button a {
+    text-decoration: none;
+    color: white;
+}
+#sections button {
+    background-color: #0b022300;
+    border: none;
+}
+#sections {
+    text-align: center;
+}
+#stay-connected button {
+    background-color: #0b022300;
+    border:none;
+}
+#stay-connected {
+    text-align: center;
+    margin-top: 20px;
+}
+#conditions button a {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+}
+#conditions button {
+    background-color: #0b022300;
+    border:none;
+}
+#conditions {
+    text-align: center;
+    margin-top: 40px;
+}
+#footer-ending {
+    text-align: center;
+    margin-top:40px;
+    margin-bottom:80px;
+}
+#footer-ending h6 {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    
+}
