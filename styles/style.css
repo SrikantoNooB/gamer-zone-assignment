@@ -1,5 +1,6 @@
 body{
     font-family: 'Work Sans', sans-serif;
+    overflow-x:hidden;
 }
 
 /* nav related styles */
@@ -232,7 +233,7 @@ ol.banner-list{
 #banner-5 {
     background-color:#FF42A5;
     display:flex;
-    width:1890px;
+    width:1920px;
     height:850px;
     overflow-x:hidden;
 }
