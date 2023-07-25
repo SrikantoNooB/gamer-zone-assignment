@@ -233,6 +233,7 @@ ol.banner-list{
     background-color:#FF42A5;
     display:flex;
     width:1890px;
+    height:850px;
     overflow-x:hidden;
 }
 #banner-5 h3{
